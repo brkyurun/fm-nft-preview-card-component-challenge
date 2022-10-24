@@ -1,6 +1,6 @@
 export function Attribution() {
   return (
-    <div className="text-xs text-center">
+    <div className="text-xs text-center absolute bottom-4 text-white">
       Challenge by{" "}
       <a
         href="https://www.frontendmentor.io?ref=challenge"

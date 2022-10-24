@@ -18,7 +18,7 @@ export function CardProfile({
       </div>
       <p className="text-primary-soft-blue">
         Creation of{" "}
-        <span className="text-white hover:text-primary-cyan">
+        <span className="text-white hover:text-primary-cyan transition-all duration-150">
           {creatorName}
         </span>
       </p>

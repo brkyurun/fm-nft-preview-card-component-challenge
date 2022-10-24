@@ -17,7 +17,10 @@ export function CardProfile({
         />
       </div>
       <p className="text-primary-soft-blue">
-        Creation of <span className="text-white">{creatorName}</span>
+        Creation of{" "}
+        <span className="text-white hover:text-primary-cyan">
+          {creatorName}
+        </span>
       </p>
     </div>
   );

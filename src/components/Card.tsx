@@ -27,7 +27,9 @@ export function Card({
           className="object-cover w-full h-full"
         />
       </div>
-      <h1 className="text-2xl text-white font-semibold my-6">{nftName}</h1>
+      <h1 className="text-2xl text-white font-semibold my-6 hover:text-primary-cyan">
+        {nftName}
+      </h1>
       <p className="text-primary-soft-blue font-light mb-6">{nftDescription}</p>
       <div className="flex items-center justify-between pb-4 mb-4 border-b border-line-color">
         <CardLabel
